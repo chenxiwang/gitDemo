@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3EEE031F7BB2B300323C84 /* KeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EEE021F7BB2B300323C84 /* KeyBoardView.m */; };
+		0A59D1951F7C943C00AAC68D /* YTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A59D1941F7C943C00AAC68D /* YTButton.m */; };
+		0A59D1971F7C95B800AAC68D /* KeyBoardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A59D1961F7C95B800AAC68D /* KeyBoardView.xib */; };
+		0A59D19A1F7C964D00AAC68D /* YTTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A59D1981F7C964D00AAC68D /* YTTextView.m */; };
+		0A59D19D1F7C96EA00AAC68D /* UITextView+APSUIControlTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A59D19B1F7C96EA00AAC68D /* UITextView+APSUIControlTargetAction.m */; };
+		0A59D19F1F7C982100AAC68D /* KeyBoardInputBoard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A59D19E1F7C981C00AAC68D /* KeyBoardInputBoard@2x.png */; };
 		0A98AD1C1F7B299A00DA5B9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A98AD1B1F7B299A00DA5B9D /* AppDelegate.m */; };
 		0A98AD1F1F7B299A00DA5B9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A98AD1E1F7B299A00DA5B9D /* ViewController.m */; };
 		0A98AD221F7B299A00DA5B9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A98AD201F7B299A00DA5B9D /* Main.storyboard */; };
 		0A98AD241F7B299A00DA5B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A98AD231F7B299A00DA5B9D /* Assets.xcassets */; };
 		0A98AD271F7B299A00DA5B9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A98AD251F7B299A00DA5B9D /* LaunchScreen.storyboard */; };
 		0A98AD2A1F7B299A00DA5B9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A98AD291F7B299A00DA5B9D /* main.m */; };
+		F84F26B423A2DFB8DC73643A /* libPods-TestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F962BC4C3C8BDC96E5B746BD /* libPods-TestDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A3EEE011F7BB2B300323C84 /* KeyBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyBoardView.h; sourceTree = "<group>"; };
+		0A3EEE021F7BB2B300323C84 /* KeyBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyBoardView.m; sourceTree = "<group>"; };
+		0A59D1931F7C943C00AAC68D /* YTButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTButton.h; sourceTree = "<group>"; };
+		0A59D1941F7C943C00AAC68D /* YTButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTButton.m; sourceTree = "<group>"; };
+		0A59D1961F7C95B800AAC68D /* KeyBoardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyBoardView.xib; sourceTree = "<group>"; };
+		0A59D1981F7C964D00AAC68D /* YTTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTTextView.m; sourceTree = "<group>"; };
+		0A59D1991F7C964D00AAC68D /* YTTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTTextView.h; sourceTree = "<group>"; };
+		0A59D19B1F7C96EA00AAC68D /* UITextView+APSUIControlTargetAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+APSUIControlTargetAction.m"; sourceTree = "<group>"; };
+		0A59D19C1F7C96EA00AAC68D /* UITextView+APSUIControlTargetAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+APSUIControlTargetAction.h"; sourceTree = "<group>"; };
+		0A59D19E1F7C981C00AAC68D /* KeyBoardInputBoard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyBoardInputBoard@2x.png"; sourceTree = "<group>"; };
 		0A98AD171F7B299A00DA5B9D /* TestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A98AD1A1F7B299A00DA5B9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A98AD1B1F7B299A00DA5B9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +43,9 @@
 		0A98AD261F7B299A00DA5B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A98AD281F7B299A00DA5B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A98AD291F7B299A00DA5B9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		445764A4F42666C46FCFE919 /* Pods-TestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestDemo/Pods-TestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8067DB884CCB5B175FC3A924 /* Pods-TestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestDemo/Pods-TestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F962BC4C3C8BDC96E5B746BD /* libPods-TestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F84F26B423A2DFB8DC73643A /* libPods-TestDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +65,8 @@
 			children = (
 				0A98AD191F7B299A00DA5B9D /* TestDemo */,
 				0A98AD181F7B299A00DA5B9D /* Products */,
+				B83573111BC801122BDD6D52 /* Pods */,
+				19383649FAA2A9A355CFB4F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +81,44 @@
 		0A98AD191F7B299A00DA5B9D /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0A59D19E1F7C981C00AAC68D /* KeyBoardInputBoard@2x.png */,
+				0A59D19C1F7C96EA00AAC68D /* UITextView+APSUIControlTargetAction.h */,
+				0A59D19B1F7C96EA00AAC68D /* UITextView+APSUIControlTargetAction.m */,
+				0A59D1991F7C964D00AAC68D /* YTTextView.h */,
+				0A59D1981F7C964D00AAC68D /* YTTextView.m */,
 				0A98AD1A1F7B299A00DA5B9D /* AppDelegate.h */,
 				0A98AD1B1F7B299A00DA5B9D /* AppDelegate.m */,
 				0A98AD1D1F7B299A00DA5B9D /* ViewController.h */,
 				0A98AD1E1F7B299A00DA5B9D /* ViewController.m */,
 				0A98AD201F7B299A00DA5B9D /* Main.storyboard */,
+				0A3EEE011F7BB2B300323C84 /* KeyBoardView.h */,
+				0A3EEE021F7BB2B300323C84 /* KeyBoardView.m */,
+				0A59D1961F7C95B800AAC68D /* KeyBoardView.xib */,
+				0A59D1931F7C943C00AAC68D /* YTButton.h */,
+				0A59D1941F7C943C00AAC68D /* YTButton.m */,
 				0A98AD231F7B299A00DA5B9D /* Assets.xcassets */,
 				0A98AD251F7B299A00DA5B9D /* LaunchScreen.storyboard */,
 				0A98AD281F7B299A00DA5B9D /* Info.plist */,
 				0A98AD291F7B299A00DA5B9D /* main.m */,
 			);
 			path = TestDemo;
+			sourceTree = "<group>";
+		};
+		19383649FAA2A9A355CFB4F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F962BC4C3C8BDC96E5B746BD /* libPods-TestDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B83573111BC801122BDD6D52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8067DB884CCB5B175FC3A924 /* Pods-TestDemo.debug.xcconfig */,
+				445764A4F42666C46FCFE919 /* Pods-TestDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A98AD2D1F7B299A00DA5B9D /* Build configuration list for PBXNativeTarget "TestDemo" */;
 			buildPhases = (
+				2C68A21A271A7C5997D0982C /* [CP] Check Pods Manifest.lock */,
 				0A98AD131F7B299A00DA5B9D /* Sources */,
 				0A98AD141F7B299A00DA5B9D /* Frameworks */,
 				0A98AD151F7B299A00DA5B9D /* Resources */,
+				EA670614BD6D7D4D78098C77 /* [CP] Embed Pods Frameworks */,
+				C824799AF3A3460A0C166587 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,19 +183,76 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A98AD271F7B299A00DA5B9D /* LaunchScreen.storyboard in Resources */,
+				0A59D1971F7C95B800AAC68D /* KeyBoardView.xib in Resources */,
 				0A98AD241F7B299A00DA5B9D /* Assets.xcassets in Resources */,
+				0A59D19F1F7C982100AAC68D /* KeyBoardInputBoard@2x.png in Resources */,
 				0A98AD221F7B299A00DA5B9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C68A21A271A7C5997D0982C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C824799AF3A3460A0C166587 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestDemo/Pods-TestDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA670614BD6D7D4D78098C77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestDemo/Pods-TestDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A98AD131F7B299A00DA5B9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A59D1951F7C943C00AAC68D /* YTButton.m in Sources */,
+				0A59D19D1F7C96EA00AAC68D /* UITextView+APSUIControlTargetAction.m in Sources */,
 				0A98AD1F1F7B299A00DA5B9D /* ViewController.m in Sources */,
+				0A3EEE031F7BB2B300323C84 /* KeyBoardView.m in Sources */,
+				0A59D19A1F7C964D00AAC68D /* YTTextView.m in Sources */,
 				0A98AD2A1F7B299A00DA5B9D /* main.m in Sources */,
 				0A98AD1C1F7B299A00DA5B9D /* AppDelegate.m in Sources */,
 			);
@@ -276,6 +386,7 @@
 		};
 		0A98AD2E1F7B299A00DA5B9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8067DB884CCB5B175FC3A924 /* Pods-TestDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,6 +400,7 @@
 		};
 		0A98AD2F1F7B299A00DA5B9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 445764A4F42666C46FCFE919 /* Pods-TestDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
