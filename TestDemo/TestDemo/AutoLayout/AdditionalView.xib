@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AdditionalView">
+            <connections>
+                <outlet property="content" destination="mtB-ER-Nae" id="0Lj-KL-LQA"/>
+                <outlet property="title" destination="mW8-4E-0Lc" id="4WD-k5-RWK"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="346" height="117"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JJk-9f-Bn0">
+                    <rect key="frame" x="15" y="15" width="140" height="87"/>
+                    <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="140" id="bib-2e-KZ9"/>
+                        <constraint firstAttribute="height" constant="87" id="cnd-Pq-8jl"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是标题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mW8-4E-0Lc">
+                    <rect key="frame" x="170" y="15" width="69.5" height="21"/>
+                    <color key="backgroundColor" white="0.80365668400000001" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是内容，我还有点长，你能咋地" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mtB-ER-Nae">
+                    <rect key="frame" x="170" y="61" width="156" height="41"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.80365668400000001" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mW8-4E-0Lc" secondAttribute="trailing" constant="15" id="9oq-jh-B6G"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mtB-ER-Nae" secondAttribute="trailing" constant="15" id="Dc7-Th-Gs8"/>
+                <constraint firstItem="mW8-4E-0Lc" firstAttribute="leading" secondItem="JJk-9f-Bn0" secondAttribute="trailing" constant="15" id="JD2-jt-jvi"/>
+                <constraint firstItem="mtB-ER-Nae" firstAttribute="top" secondItem="mW8-4E-0Lc" secondAttribute="bottom" constant="25" id="L7n-9P-IOu"/>
+                <constraint firstItem="mW8-4E-0Lc" firstAttribute="top" secondItem="JJk-9f-Bn0" secondAttribute="top" id="SXU-XG-jLA"/>
+                <constraint firstItem="JJk-9f-Bn0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="WEQ-FL-Muc"/>
+                <constraint firstItem="mtB-ER-Nae" firstAttribute="leading" secondItem="JJk-9f-Bn0" secondAttribute="trailing" constant="15" id="b3u-aU-XKa"/>
+                <constraint firstItem="JJk-9f-Bn0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="lXu-Gf-lXU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="19" y="-220.5"/>
+        </view>
+    </objects>
+</document>

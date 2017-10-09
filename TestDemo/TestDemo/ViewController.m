@@ -10,7 +10,7 @@
 #import "KeyBoardView.h"
 #import "YTButton.h"
 #import "NSObject+YYModel.h"
-
+#import "AutoViewController.h"
 @interface People:NSObject
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *age;
@@ -35,14 +35,7 @@
     [self.ytButton setTitle:@"点我" forState:UIControlStateNormal];
     [self.ytButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     
-    NSDictionary *dict = @{@"name":@"lili",@"age":[NSNull null]};
-    
-    People *people = [People yy_modelWithDictionary:dict];
-    
-    NSLog(@"默认:%ld",people.age.length);
-    
-    NSString *age = dict[@"age"];
-     NSLog(@"默认:%ld",age.length);
+  
 }
 - (IBAction)clickBtn:(YTButton *)sender {
     NSLog(@"我的名字是%@",sender.buttonName);
@@ -53,9 +46,13 @@
     return YES;
 }
 - (IBAction)clickAction:(UIButton *)sender {
-    [self.theBoardView show:^{
-        
-    }];
+   
+    AutoViewController *vc = [[AutoViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
+    
+//    [self.theBoardView show:^{
+//
+//    }];
 }
 
 - (KeyBoardView *)theBoardView{

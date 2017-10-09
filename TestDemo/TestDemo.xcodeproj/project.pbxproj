@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0A3EEE031F7BB2B300323C84 /* KeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EEE021F7BB2B300323C84 /* KeyBoardView.m */; };
+		0A56DE1F1F7F7C6A007C0680 /* AutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A56DE1D1F7F7C6A007C0680 /* AutoViewController.m */; };
+		0A56DE201F7F7C6A007C0680 /* AutoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A56DE1E1F7F7C6A007C0680 /* AutoViewController.xib */; };
+		0A56DE241F7F7CCC007C0680 /* AutoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A56DE221F7F7CCC007C0680 /* AutoTableViewCell.m */; };
+		0A56DE251F7F7CCC007C0680 /* AutoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A56DE231F7F7CCC007C0680 /* AutoTableViewCell.xib */; };
+		0A56DE281F7F8477007C0680 /* AdditionalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A56DE271F7F8477007C0680 /* AdditionalView.m */; };
+		0A56DE2A1F7F848B007C0680 /* AdditionalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A56DE291F7F848B007C0680 /* AdditionalView.xib */; };
 		0A59D1951F7C943C00AAC68D /* YTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A59D1941F7C943C00AAC68D /* YTButton.m */; };
 		0A59D1971F7C95B800AAC68D /* KeyBoardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A59D1961F7C95B800AAC68D /* KeyBoardView.xib */; };
 		0A59D19A1F7C964D00AAC68D /* YTTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A59D1981F7C964D00AAC68D /* YTTextView.m */; };
@@ -25,6 +31,15 @@
 /* Begin PBXFileReference section */
 		0A3EEE011F7BB2B300323C84 /* KeyBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyBoardView.h; sourceTree = "<group>"; };
 		0A3EEE021F7BB2B300323C84 /* KeyBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyBoardView.m; sourceTree = "<group>"; };
+		0A56DE1C1F7F7C6A007C0680 /* AutoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoViewController.h; sourceTree = "<group>"; };
+		0A56DE1D1F7F7C6A007C0680 /* AutoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoViewController.m; sourceTree = "<group>"; };
+		0A56DE1E1F7F7C6A007C0680 /* AutoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoViewController.xib; sourceTree = "<group>"; };
+		0A56DE211F7F7CCC007C0680 /* AutoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoTableViewCell.h; sourceTree = "<group>"; };
+		0A56DE221F7F7CCC007C0680 /* AutoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoTableViewCell.m; sourceTree = "<group>"; };
+		0A56DE231F7F7CCC007C0680 /* AutoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoTableViewCell.xib; sourceTree = "<group>"; };
+		0A56DE261F7F8477007C0680 /* AdditionalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdditionalView.h; sourceTree = "<group>"; };
+		0A56DE271F7F8477007C0680 /* AdditionalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdditionalView.m; sourceTree = "<group>"; };
+		0A56DE291F7F848B007C0680 /* AdditionalView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdditionalView.xib; sourceTree = "<group>"; };
 		0A59D1931F7C943C00AAC68D /* YTButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTButton.h; sourceTree = "<group>"; };
 		0A59D1941F7C943C00AAC68D /* YTButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTButton.m; sourceTree = "<group>"; };
 		0A59D1961F7C95B800AAC68D /* KeyBoardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyBoardView.xib; sourceTree = "<group>"; };
@@ -60,6 +75,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A56DE1A1F7F7C31007C0680 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0A56DE1C1F7F7C6A007C0680 /* AutoViewController.h */,
+				0A56DE1D1F7F7C6A007C0680 /* AutoViewController.m */,
+				0A56DE1E1F7F7C6A007C0680 /* AutoViewController.xib */,
+				0A56DE211F7F7CCC007C0680 /* AutoTableViewCell.h */,
+				0A56DE221F7F7CCC007C0680 /* AutoTableViewCell.m */,
+				0A56DE231F7F7CCC007C0680 /* AutoTableViewCell.xib */,
+				0A56DE261F7F8477007C0680 /* AdditionalView.h */,
+				0A56DE271F7F8477007C0680 /* AdditionalView.m */,
+				0A56DE291F7F848B007C0680 /* AdditionalView.xib */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		0A56DE1B1F7F7C47007C0680 /* KeyBoardView */ = {
+			isa = PBXGroup;
+			children = (
+				0A59D19C1F7C96EA00AAC68D /* UITextView+APSUIControlTargetAction.h */,
+				0A59D19B1F7C96EA00AAC68D /* UITextView+APSUIControlTargetAction.m */,
+				0A59D1991F7C964D00AAC68D /* YTTextView.h */,
+				0A59D1981F7C964D00AAC68D /* YTTextView.m */,
+				0A59D19E1F7C981C00AAC68D /* KeyBoardInputBoard@2x.png */,
+				0A3EEE011F7BB2B300323C84 /* KeyBoardView.h */,
+				0A3EEE021F7BB2B300323C84 /* KeyBoardView.m */,
+				0A59D1961F7C95B800AAC68D /* KeyBoardView.xib */,
+				0A59D1931F7C943C00AAC68D /* YTButton.h */,
+				0A59D1941F7C943C00AAC68D /* YTButton.m */,
+			);
+			path = KeyBoardView;
+			sourceTree = "<group>";
+		};
 		0A98AD0E1F7B299A00DA5B9D = {
 			isa = PBXGroup;
 			children = (
@@ -81,21 +129,13 @@
 		0A98AD191F7B299A00DA5B9D /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0A59D19E1F7C981C00AAC68D /* KeyBoardInputBoard@2x.png */,
-				0A59D19C1F7C96EA00AAC68D /* UITextView+APSUIControlTargetAction.h */,
-				0A59D19B1F7C96EA00AAC68D /* UITextView+APSUIControlTargetAction.m */,
-				0A59D1991F7C964D00AAC68D /* YTTextView.h */,
-				0A59D1981F7C964D00AAC68D /* YTTextView.m */,
+				0A56DE1B1F7F7C47007C0680 /* KeyBoardView */,
+				0A56DE1A1F7F7C31007C0680 /* AutoLayout */,
 				0A98AD1A1F7B299A00DA5B9D /* AppDelegate.h */,
 				0A98AD1B1F7B299A00DA5B9D /* AppDelegate.m */,
 				0A98AD1D1F7B299A00DA5B9D /* ViewController.h */,
 				0A98AD1E1F7B299A00DA5B9D /* ViewController.m */,
 				0A98AD201F7B299A00DA5B9D /* Main.storyboard */,
-				0A3EEE011F7BB2B300323C84 /* KeyBoardView.h */,
-				0A3EEE021F7BB2B300323C84 /* KeyBoardView.m */,
-				0A59D1961F7C95B800AAC68D /* KeyBoardView.xib */,
-				0A59D1931F7C943C00AAC68D /* YTButton.h */,
-				0A59D1941F7C943C00AAC68D /* YTButton.m */,
 				0A98AD231F7B299A00DA5B9D /* Assets.xcassets */,
 				0A98AD251F7B299A00DA5B9D /* LaunchScreen.storyboard */,
 				0A98AD281F7B299A00DA5B9D /* Info.plist */,
@@ -184,9 +224,12 @@
 			files = (
 				0A98AD271F7B299A00DA5B9D /* LaunchScreen.storyboard in Resources */,
 				0A59D1971F7C95B800AAC68D /* KeyBoardView.xib in Resources */,
+				0A56DE251F7F7CCC007C0680 /* AutoTableViewCell.xib in Resources */,
 				0A98AD241F7B299A00DA5B9D /* Assets.xcassets in Resources */,
 				0A59D19F1F7C982100AAC68D /* KeyBoardInputBoard@2x.png in Resources */,
 				0A98AD221F7B299A00DA5B9D /* Main.storyboard in Resources */,
+				0A56DE201F7F7C6A007C0680 /* AutoViewController.xib in Resources */,
+				0A56DE2A1F7F848B007C0680 /* AdditionalView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,8 +296,11 @@
 				0A98AD1F1F7B299A00DA5B9D /* ViewController.m in Sources */,
 				0A3EEE031F7BB2B300323C84 /* KeyBoardView.m in Sources */,
 				0A59D19A1F7C964D00AAC68D /* YTTextView.m in Sources */,
+				0A56DE281F7F8477007C0680 /* AdditionalView.m in Sources */,
 				0A98AD2A1F7B299A00DA5B9D /* main.m in Sources */,
+				0A56DE241F7F7CCC007C0680 /* AutoTableViewCell.m in Sources */,
 				0A98AD1C1F7B299A00DA5B9D /* AppDelegate.m in Sources */,
+				0A56DE1F1F7F7C6A007C0680 /* AutoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
